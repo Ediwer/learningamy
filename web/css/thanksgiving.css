@@ -1,0 +1,15 @@
+/* Seasonal decoration only: no changes to player data or learning rules. */
+body {
+  background-color: #211c2d;
+  background-image: url('../iconos/thanksgiving-background.svg');
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+body::before { background-image: none; }
+#hud { background: rgba(40, 29, 43, .97); border-bottom-color: #71533f; }
+/* Keep exercise text on the established opaque panels. */
+.portada { background: rgba(33, 28, 45, .88); border: 1px solid #71533f; border-radius: 24px; padding: 24px 18px; }
+@media(max-width:600px) {
+  body { background-size: 100% auto; background-repeat: no-repeat; }
+}

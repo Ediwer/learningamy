@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" fill="none">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#382339"/><stop offset="1" stop-color="#211c2d"/></linearGradient>
+ <g id="leaf"><path d="M0 48L-28 27-16 22-26 1-8 8 0-20 8 8 26 1 16 22 28 27Z" fill="currentColor"/><path d="M0 48V4" stroke="#603d31" stroke-width="3" stroke-linecap="round"/></g>
+ <g id="pumpkin"><path d="M-3-35Q-7-53 6-55" stroke="#859359" stroke-width="9" stroke-linecap="round"/><ellipse rx="50" ry="37" fill="#c66c36"/><ellipse rx="32" ry="38" fill="#e28c45"/><ellipse rx="15" ry="38" fill="#efa857"/></g>
+</defs>
+<path fill="url(#sky)" d="M0 0H1440V1000H0Z"/>
+<path d="M0 870Q170 800 340 940T750 970T1440 850V1000H0Z" fill="#47382e"/>
+<path d="M0 942Q250 885 410 978T1000 960T1440 935V1000H0Z" fill="#5a4331"/>
+<g opacity=".65">
+ <use href="#leaf" transform="translate(90 110) rotate(-28) scale(1.2)" color="#e2a455"/>
+ <use href="#leaf" transform="translate(220 300) rotate(35) scale(.7)" color="#ae6c4b"/>
+ <use href="#leaf" transform="translate(50 560) rotate(-65)" color="#bd7956"/>
+ <use href="#leaf" transform="translate(1325 180) rotate(35) scale(1.3)" color="#e2a455"/>
+ <use href="#leaf" transform="translate(1230 440) rotate(-35) scale(.8)" color="#b77d55"/>
+ <use href="#leaf" transform="translate(1380 660) rotate(65)" color="#bb7453"/>
+</g>
+<g transform="translate(115 935)"><use href="#pumpkin"/><use href="#pumpkin" transform="translate(85 17) scale(.65)"/></g>
+<g transform="translate(1300 895)">
+ <ellipse cx="-48" cy="-22" rx="25" ry="61" transform="rotate(-40 -48 -22)" fill="#b86242"/>
+ <ellipse cx="-24" cy="-42" rx="25" ry="61" transform="rotate(-20 -24 -42)" fill="#dda04e"/>
+ <ellipse cy="-48" rx="25" ry="61" fill="#a3503e"/>
+ <ellipse cx="24" cy="-42" rx="25" ry="61" transform="rotate(20 24 -42)" fill="#dda04e"/>
+ <ellipse cx="48" cy="-22" rx="25" ry="61" transform="rotate(40 48 -22)" fill="#b86242"/>
+ <ellipse cy="22" rx="49" ry="53" fill="#7e513e"/><ellipse cy="-8" rx="27" ry="32" fill="#ba8054"/>
+ <circle cx="-9" cy="-14" r="4" fill="#251e29"/><circle cx="9" cy="-14" r="4" fill="#251e29"/>
+ <path d="M-8-4H8L0 8Z" fill="#f4bd62"/><path d="M5 5Q20 20 7 24Q0 19 5 5" fill="#c35d4c"/>
+ <path d="M-18 69V79H-31M18 69V79H31" stroke="#dca45f" stroke-width="6" stroke-linecap="round"/>
+</g>
+</svg>

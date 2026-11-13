@@ -3,12 +3,14 @@
    (todo menos el reconocimiento de voz, que necesita conexión en Android)
    ========================================================================== */
 
-var CACHE = "blockquest-arte-1";
+var CACHE = "blockquest-thanksgiving-2026-1";
 
 var ARCHIVOS = [
   "./",
   "./index.html",
   "./css/estilo.css",
+  "./css/thanksgiving.css",
+  "./iconos/thanksgiving-background.svg",
   "./js/config.js",
   "./js/iconos.js",
   "./js/efectos.js",
